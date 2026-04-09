@@ -11,7 +11,7 @@ EV Lite es un proyecto activo potenciado principalmente por zTheUnxversePM2_ con
 Si tiene algun problema o incidente por el plugin, reportelo en las dudas para seguir dando soporte a este plugin. Antes de reportar un incidente asegurese de tener la version mas reciente y estable de este plugin.
 
 # Obtener BlockerCommands
-Compile el codigo del plugin mediante DevTools o descargue el archivo "BlockerCommands.phar" e instale el plugin en un entorno adecuado (API 2.0.0 y PHP 7.0.3)
+Compile el codigo del plugin mediante DevTools o descargue el archivo "BlockerCommands_v1.0.0.phar" e instale el plugin en un entorno adecuado (API 2.0.0 y PHP 7.0.3)
 
 # Redes & Comunicacion
 **Youtube: https://www.youtube.com/@UniverseCraft_YT**
