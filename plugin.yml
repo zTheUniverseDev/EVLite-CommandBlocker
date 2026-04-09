@@ -1,0 +1,23 @@
+name: BlockerCommands
+main: AdvancedCommandBlocker\Main
+version: 1.0.0
+api: [2.0.0]
+author: zTheUnxversePM2_
+description: Bloquea comandos por grupos con permisos de bypass y jerarquía.
+
+permissions:
+  cmdblock.bypass.illegal:
+    description: Permite usar comandos ilegales (si se desactiva la no-evasibilidad)
+    default: false
+  cmdblock.bypass.admin:
+    description: Permite usar comandos de administración
+    default: false
+  cmdblock.bypass.builder:
+    description: Permite usar comandos de construcción
+    default: false
+  cmdblock.bypass.staff:
+    description: Permite usar comandos de staff
+    default: false
+  cmdblock.bypass.helper:
+    description: Permite usar comandos de helper
+    default: false
