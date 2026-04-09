@@ -1,0 +1,70 @@
+# Configuracion avanzada de BlockerCommands
+# By zTheUnxversePM2_ - ULCore Module
+# este plugin se ordena por jerarquias
+# evita y proteje de:
+# Exploiters y hackers
+# Staffs corruptos usando comandos no debidos
+# Alerta de ejecucion de comandos
+# Totalmente customizable a tu gusto
+# --------------------------------------------
+
+
+# decide si los comandos bloqueados se permiten en consola
+block-console: false # se recomienda esta opcion "false"
+# decide si quieres que se guarden registros de los comandos
+log-to-file: false # se recomienda "true" si quieres ver los comandos ejecutas o matnen "false" para optimizacion
+
+groups:
+  illegal: # comandos ilegales como /sudo
+    commands:
+      - op
+      - forceop
+      - deop
+      - setop
+      - sudo
+      - console
+    message: "§cNo puedes usar comandos de operador."
+    bypass-permission: "cmdblock.bypass.illegal" # otorga este permiso a tu rango correspondiente
+    unbypassable: true  # si quieres usar comandos ilegales tu activa esto.
+  admin:
+    commands:
+      - adminfun
+      - nick
+      - setgroup
+      - addgroup
+      - removegroup
+    message: "§cNo tienes permiso para usar comandos de administración."
+    bypass-permission: "cmdblock.bypass.admin" # otorga este permiso al rango correspondiente
+  builder:
+    commands:
+      - wand
+      - pos1
+      - pos2
+      - set
+      - replace
+      - walls
+      - cyl
+      - hcyl
+    message: "§cNo puedes usar comandos de construcción."
+    bypass-permission: "cmdblock.bypass.builder" # otorga este permiso al rango correspondiente
+  staff:
+    commands:
+      - mod
+      - staffmode
+      - tpall
+      - vanish
+      - v
+      - freeze
+      - mute
+    message: "§cNo puedes usar comandos de staff."
+    bypass-permission: "cmdblock.bypass.staff" # otorga este permiso al rango correspondiente
+  helper:
+    commands:
+      - gamemode
+      - gm
+      - tp
+      - teleport
+      - heal
+      - feed
+    message: "§cNo puedes usar comandos de helper."
+    bypass-permission: "cmdblock.bypass.helper" # otorga este permiso al rango correspondiente
