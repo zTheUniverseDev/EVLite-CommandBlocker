@@ -2,7 +2,7 @@
 **Plugin/complemento para servidores que corren en PocketMine-MP API 2.0.0**
 
 # Introduccion
-BlockerCommands pertenece al proyecto EV Lite derivado a la baja calidad de los plugins PocketMine actuales de las versiones legacy de API 2.0.0. Este plugin incorpora un sistema auxiliar a EconomyAPI con muchas caracteristicas que los plugins tradicionales no tienen desde 2018. Este plugin tiene la calidad que la comunidad de desarrolladores de las versiones legacy (0.15.10 - 0.14.3) y owners de servidores necesitan de verdad.
+BlockerCommands pertenece al proyecto EV Lite derivado a la baja calidad de los plugins PocketMine actuales de las versiones legacy de API 2.0.0. Este plugin incorpora un sistema auxiliar de proteccion de abuso de comandos ilegales y jerarquia con muchas caracteristicas que los plugins tradicionales no tienen desde 2018. Este plugin tiene la calidad que la comunidad de desarrolladores de las versiones legacy (0.15.10 - 0.14.3) y owners de servidores necesitan de verdad.
 
 EV Lite es un proyecto activo potenciado principalmente por zTheUnxversePM2_ con objetivo de distribuir plugins seguros, sin force-op y alta calidad para nuestros usuarios ya que la estabilidad de los plugins tradicionales deja mucho que desear, por eso le recomendamos seguir usando EV Lite con estos plugins de calidad.
 
